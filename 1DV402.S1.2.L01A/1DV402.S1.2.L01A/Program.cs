@@ -13,16 +13,16 @@ namespace _1DV402.S1._2.L01A
 
 
             int n1 = 1;
+
             int n2 = 2;
-            int Raderhög = 25;
-            int raderbred = 39;
 
-            int test = 0;
+            int Raderhög = 25; // 25 rader skapar höjd i mönstret, kort sidan ska var 25 rader hög
 
+            int raderbred = 39; // 29 kolumner skapar bred i mönstret, lång sidan ska vara 39 kolumner bred 
 
             int fergval = 1;
 
-            for (int i = 0; i < Raderhög; i++)
+            for (int i = 0; i < Raderhög; i++) // bestämmer höjd i rader 
             {
 
 
@@ -55,13 +55,11 @@ namespace _1DV402.S1._2.L01A
 
                 for (int j = 0; j < raderbred; j++)// skriver ut 39 asterisk, som liger på bred
                 {
-                    Console.Write("*");
-                    test++;
-                   
 
+                    Console.Write("*");
                     
                 }
-                Console.WriteLine(test);
+             
                 Console.WriteLine();//Radbrytning
 
                 n1++;
@@ -80,7 +78,6 @@ namespace _1DV402.S1._2.L01A
                 
             }
 
-            Console.WriteLine(test);
 
             Console.ReadKey();// stanar programet och när man klickar på bokstav så avslutas den. 
             
