@@ -1,0 +1,7 @@
+C:\Users\Marco\1-2-Rita med asterisker\1DV402.S1.2.L01A\1DV402.S1.2.L01A\bin\Debug\1DV402.S1.2.L01A.exe.config
+C:\Users\Marco\1-2-Rita-med-asterisker\1DV402.S1.2.L01A\1DV402.S1.2.L01A\bin\Debug\1DV402.S1.2.L01A.exe.config
+C:\Users\Marco\1-2-Rita-med-asterisker\1DV402.S1.2.L01A\1DV402.S1.2.L01A\bin\Debug\1DV402.S1.2.L01A.exe
+C:\Users\Marco\1-2-Rita-med-asterisker\1DV402.S1.2.L01A\1DV402.S1.2.L01A\bin\Debug\1DV402.S1.2.L01A.pdb
+C:\Users\Marco\1-2-Rita-med-asterisker\1DV402.S1.2.L01A\1DV402.S1.2.L01A\obj\Debug\1DV402.S1.2.L01A.csprojResolveAssemblyReference.cache
+C:\Users\Marco\1-2-Rita-med-asterisker\1DV402.S1.2.L01A\1DV402.S1.2.L01A\obj\Debug\1DV402.S1.2.L01A.exe
+C:\Users\Marco\1-2-Rita-med-asterisker\1DV402.S1.2.L01A\1DV402.S1.2.L01A\obj\Debug\1DV402.S1.2.L01A.pdb
