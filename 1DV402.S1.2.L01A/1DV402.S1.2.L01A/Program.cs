@@ -28,7 +28,24 @@ namespace _1DV402.S1._2.L01A
             Console.Write("* ");
             Console.WriteLine();
 
+            int n = 0;
+            int Raderhög = 25;
+            int raderbred = 39;
+
+            for (int i = 0; i < Raderhög; i++)
+            {
+                for (int j = 0; j < raderbred; j++)
+                {
+                    Console.Write("*");
+                    
+                }
+                Console.WriteLine();
+                n++;
+            }
+
+            Console.WriteLine(n);
             indata = Console.ReadLine();
+            
         }
     }
 }
