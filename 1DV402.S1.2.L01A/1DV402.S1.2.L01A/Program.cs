@@ -33,13 +33,47 @@ namespace _1DV402.S1._2.L01A
             int Raderhög = 25;
             int raderbred = 39;
 
+            int test = 0;
+
+
+            int fergval = 1;
+
             for (int i = 0; i < Raderhög; i++)
             {
+
+
+                switch (fergval)
+                {
+
+                    case 1:
+                        {
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            fergval = fergval + 1;
+                            break;
+                        }
+
+                    case 2:
+                        {
+                            Console.ForegroundColor = ConsoleColor.Magenta;
+                            fergval = fergval + 1;
+                            break;
+                        }
+
+                    default:
+                        {
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            fergval = 1;
+                            break;
+                        }
+
+                }
+
                 for (int j = 0; j < raderbred; j++)
                 {
                     Console.Write("*");
                     
                 }
+
                 Console.WriteLine();
 
                 n1++;
@@ -53,10 +87,12 @@ namespace _1DV402.S1._2.L01A
 
                 }
 
+                test++;
+
                 
             }
 
-            Console.WriteLine(n2);
+            Console.WriteLine(test);
             indata = Console.ReadLine();
             
         }
