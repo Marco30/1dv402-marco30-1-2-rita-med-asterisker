@@ -11,22 +11,6 @@ namespace _1DV402.S1._2.L01A
         static void Main(string[] args)
         {
 
-            string indata;
-            Console.WriteLine("hej");
-            Console.WriteLine("vad gör du");
-
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write(" "); 
-            Console.Write("* "); 
-            Console.WriteLine();
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.Write(" "); 
-            Console.Write("* "); 
-            Console.WriteLine();
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write(" ");
-            Console.Write("* ");
-            Console.WriteLine();
 
             int n1 = 1;
             int n2 = 2;
@@ -42,7 +26,7 @@ namespace _1DV402.S1._2.L01A
             {
 
 
-                switch (fergval)
+                switch (fergval)// bestämmer vilken färg asterisken ska ha utifrån värdet inte variabel fergval har       
                 {
 
                     case 1:
@@ -64,21 +48,25 @@ namespace _1DV402.S1._2.L01A
                             Console.ForegroundColor = ConsoleColor.Green;
                             fergval = 1;
                             break;
+
                         }
 
                 }
 
-                for (int j = 0; j < raderbred; j++)
+                for (int j = 0; j < raderbred; j++)// skriver ut 39 asterisk, som liger på bred
                 {
                     Console.Write("*");
+                    test++;
+                   
+
                     
                 }
-
-                Console.WriteLine();
+                Console.WriteLine(test);
+                Console.WriteLine();//Radbrytning
 
                 n1++;
 
-                if(n1 == n2)
+                if (n1 == n2) //gör så att vart annat asterisk rad är inskjuten ett steg  
                 {
 
                 Console.Write(" ");
@@ -87,13 +75,14 @@ namespace _1DV402.S1._2.L01A
 
                 }
 
-                test++;
+                
 
                 
             }
 
             Console.WriteLine(test);
-            indata = Console.ReadLine();
+
+            Console.ReadKey();// stanar programet och när man klickar på bokstav så avslutas den. 
             
         }
     }
